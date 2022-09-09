@@ -1,6 +1,6 @@
 public class Implementation {
     public static void main(String[] args) {
-        Manual manual = new Manual("Manual", 5, "MP7");
+        Manual manual = new Manual("Manual", 6, "MP7");
         manual.setGearRatio(new double[]{1.6780, 2.780, 2.67, 1.000, 5.67, 1.234});
         manual.showSpecs();
         System.out.println("------------------");
